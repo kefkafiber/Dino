@@ -103,6 +103,22 @@
             }
         },
         {
+            "Key": "63e54b04-0d3e-43ac-a92f-b4496ac13343",
+            "Value": {
+                "id": "9cba581a-53cf-4386-95ad-f5f74e37e195",
+                "resourcePath": "tilesets\\tile_Jungle\\tile_Jungle.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "8454dc92-e188-4df4-abb1-d0c9702f5092",
+            "Value": {
+                "id": "758ce959-bf92-484d-a740-d89e56c2fcd6",
+                "resourcePath": "sprites\\spr_JungleSet\\spr_JungleSet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8a9abead-7eb9-4cbb-82d7-2c0c961868fa",
             "Value": {
                 "id": "e82da7ec-4708-437a-8ac9-10c69b372382",
@@ -162,7 +178,7 @@
             "Key": "bafea9c2-1e50-4ff9-a994-ca70dfa57aef",
             "Value": {
                 "id": "9cea7128-2116-4f97-8345-cb43df8ef04d",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room_Jungle_1\\room_Jungle_1.yy",
                 "resourceType": "GMRoom"
             }
         },
