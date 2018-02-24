@@ -72,6 +72,3 @@ else
 	else sprite_index = Spr_Dart_Idle;
     x = x + horSpeed;
 }
-
-// Horizontal Collsion
-if (place_meeting(x+horSpeed,y,Obj_Wall))
