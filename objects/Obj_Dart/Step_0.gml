@@ -1,4 +1,15 @@
 /// @description Movement
+key_left = keyboard_check(vk_left);
+key_right = keyboard_check(vk_right);
+key_down = keyboard_check(vk_down);
+key_jump = keyboard_check_pressed(vk_space);
+pad_num = 4;
+pad_on = gamepad_is_connected(pad_num);
+
+var move = key_right - key_left;
+
+horSpeed = move * runSpeed;
+
 
 if gamepad_is_connected(4)
 {
@@ -86,26 +97,10 @@ if gamepad_is_connected(4)
 }
 else
 {
-	//Moving Left
-	if keyboard_check(vk_left) && !keyboard_check(vk_right)
-	{
-		sprite_index = Spr_Dart_Run;
-		image_xscale = -3.5;
-		x = x - runSpeed;
-	}
-	//Moving Right
-	else if keyboard_check(vk_right) && !keyboard_check(vk_left)
-	{
-		sprite_index = Spr_Dart_Run;
-		image_xscale = 3.5;
-		x = x + runSpeed;
-	}
-	else if keyboard_check(vk_down)
-	{
-		sprite_index = Spr_Dart_Duck;
-	}
-	else
-	{
-		sprite_index = Spr_Dart_Idle;
-	}
+	if move != 0 sprite_index = Spr_Dart_Run;
+	if(move == 1) image_xscale = 3.5;
+	else if(move == -1) image_xscale = -3.5;
+	else if key_down sprite_index = Spr_Dart_Duck;
+	else sprite_index = Spr_Dart_Idle;
+    x = x + horSpeed;
 }

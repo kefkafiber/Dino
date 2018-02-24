@@ -116,6 +116,34 @@
             "value": "True",
             "varName": "alive",
             "varType": 3
+        },
+        {
+            "id": "b96f792b-eb47-49ed-8277-23150e69092a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "horSpeed",
+            "varType": 0
+        },
+        {
+            "id": "04d4bd23-0a35-497d-bb74-b1c30b7b12fd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "vertSpeed",
+            "varType": 0
         }
     ],
     "solid": false,
