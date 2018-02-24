@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "4fbdf4aa-39ac-4b4e-9099-23f8842d3240",
+            "Value": {
+                "id": "38485819-a27d-4fed-85e8-ebd559f42e77",
+                "resourcePath": "objects\\Obj_Wall\\Obj_Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5998e722-d5bc-434d-a42d-ad7502ce2ee3",
             "Value": {
                 "id": "6dc39ec2-9034-4748-81f2-45bd90e2ae64",
@@ -147,6 +155,14 @@
             "Value": {
                 "id": "d8c919e2-b2ae-48f0-935e-6a37c3c9169f",
                 "resourcePath": "sprites\\Spr_Dart_Walk\\Spr_Dart_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6349d933-08ba-4fd1-85a0-4c1e9889af60",
+            "Value": {
+                "id": "ce180420-6838-41ec-8177-24a1178fe191",
+                "resourcePath": "sprites\\Spr_Wall\\Spr_Wall.yy",
                 "resourceType": "GMSprite"
             }
         },
